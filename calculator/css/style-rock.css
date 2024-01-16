@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, hsl(113, 84%, 52%), #e60c0c); 
+}
+
+.button-container {
+    text-align: center; 
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none; 
+    display: inline-block; 
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); 
+    color: #333; 
+    border-radius: 5px;
+}
+
+#rockBtn {
+    background: linear-gradient(to bottom, #ff8c8c, #ff0000);
+}
+
+#paperBtn {
+    background: linear-gradient(to bottom, #8cd5ff, #0000ff); 
+}
+
+#scissorsBtn {
+    background: linear-gradient(to bottom, #ffff8c, #ffff00); 
+}
+
+button:hover {
+    filter: brightness(90%);
+}

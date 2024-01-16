@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style-mult.css">
+    <script defer src="../js/main-mult.js"></script>
+</head>
+<body>
+    <h1>구구단 계산기</h1>
+
+    <label for="gugudanInput">몇 단을 출력할까요? </label>
+    <input type="number" id="gugudanInput" min="1" max="9">
+    <button onclick="generateGugudan()">계산하기</button>
+    
+    <div id="gugudanOutput"></div>
+    
+    <button onclick="goToIndex()">돌아가기</button>
+</body>
+</html>
